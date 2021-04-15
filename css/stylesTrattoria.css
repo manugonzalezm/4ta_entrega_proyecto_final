@@ -104,6 +104,9 @@ h1 {
   height: 50vh;
   width: 100%; }
 
+.cards_comida {
+  border: solid #81d181 1px; }
+
 .input {
   width: 400px; }
 
