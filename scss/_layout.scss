@@ -1,0 +1,20 @@
+.ancho_responsive{
+    width: 100%;
+}
+
+.cards_comida{
+    height: 60vh;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.alto_carrusel{
+    height: 105vh;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -75,3 +75,27 @@ h1 {
 
 .tarjetas:hover {
   transform: scale(1.3, 1.3); }
+
+.logos_redes {
+  height: 5vh;
+  width: 5vh; }
+
+.logo_wpp {
+  height: 8vh;
+  width: 8vh; }
+
+.ancho_responsive {
+  width: 100%; }
+
+.cards_comida {
+  height: 60vh; }
+  .cards_comida img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.alto_carrusel {
+  height: 105vh; }
+  .alto_carrusel img {
+    height: 100%;
+    width: 100%; }
