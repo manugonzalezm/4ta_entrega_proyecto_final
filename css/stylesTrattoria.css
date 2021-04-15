@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ a {
 img {
   object-fit: cover; }
 
+/**Colores de fondo**/
 .fondo_oscuro {
   background-color: #229422; }
 
@@ -19,11 +21,25 @@ img {
 .fondo_claro {
   background-color: #abe99f; }
 
+/**Efectos**/
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+/**Tipografías**/
+.font_normal {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem; }
+
+.font_media {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2rem; }
+
+.font_subt {
+  font-family: "Cookie", cursive;
+  font-size: 2rem; }
 
 h1 {
   font-family: "Cookie", cursive;
@@ -40,3 +56,22 @@ h1 {
   width: 15vh;
   margin: 1rem;
   border-radius: 110vh; }
+
+.items_menu {
+  background-color: #25b925;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.8rem;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  border-radius: 2vh; }
+  .items_menu:hover {
+    background-color: white; }
+
+.texto_centrado {
+  text-align: center; }
+
+.bordes {
+  border-radius: 2vh; }
+
+.tarjetas:hover {
+  transform: scale(1.3, 1.3); }
