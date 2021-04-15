@@ -2,3 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+img {
+  object-fit: cover; }
+
+.fondo_oscuro {
+  background-color: #229422; }
+
+.fondo_verde2 {
+  background-color: #25b925; }
+
+.fondo_claro {
+  background-color: #abe99f; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+h1 {
+  font-family: "Cookie", cursive;
+  font-size: 3rem;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  border-radius: 8vh; }
+  a h1:hover {
+    background-image: url(img/bandera-italia.jpg);
+    background-position: center; }
+
+#logo {
+  height: 15vh;
+  width: 15vh;
+  margin: 1rem;
+  border-radius: 110vh; }

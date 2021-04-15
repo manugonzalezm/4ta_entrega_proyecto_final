@@ -12,9 +12,63 @@ $intermedio: rgb(37, 185, 37);
 $claro: rgb(171, 233, 159);
 
 $borde: 2vh;
+$bordeXL: 8vh;
 $borde-circulo: 110vh;
 
 $fuenteXL: 3rem;
 $fuenteL: 2rem;
 $fuenteS: 1rem;
+
+$time: 3s;
+
+$logo: 15vh;
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+.fondo_oscuro{
+    background-color: $oscuro;
+}
+
+.fondo_verde2{
+    background-color: $intermedio;
+}
+
+.fondo_claro{
+    background-color: $claro;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h1{
+    font-family: $cursiva;
+    font-size: $fuenteXL;
+    animation-duration: $time;
+    animation-name: aparecer;
+    border-radius: $bordeXL;
+        a &:hover{
+            background-image: url(img/bandera-italia.jpg);
+            background-position: center;
+        }
+}
+
+#logo{
+    height: $logo;
+    width: $logo;
+    margin: 1rem;
+    border-radius: $borde-circulo;
+}
 
