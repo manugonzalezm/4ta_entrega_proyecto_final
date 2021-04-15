@@ -78,7 +78,7 @@ h1{
     animation-name: aparecer;
     border-radius: $bordeXL;
     a &:hover{
-        background-image: url(img/bandera-italia.jpg);
+        background-image: url(/img/bandera-italia.jpg);
         background-position: center;
     }
 }
@@ -96,7 +96,7 @@ h1{
     font-size: ($fuenteXL)-0.2;
     animation-duration: $time;
     animation-name: aparecer;
-    border-radius: $borde;
+    border-radius: $bordeXL;
     &:hover{
         background-color: white;
     }
@@ -108,6 +108,10 @@ h1{
 
 .bordes{
     border-radius: $borde;
+}
+
+.ancho_responsive{
+    width: 100%;
 }
 
 .tarjetas:hover{

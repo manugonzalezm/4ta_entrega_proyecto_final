@@ -47,20 +47,20 @@
         </nav>
     </header>
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide m-5" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide m-5 alto_carrusel" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active foto_carrusel">
                     <img src="img/noquisSalsa2.jpeg" class="d-block w-100" alt="noquis con salsa">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item foto_carrusel">
                     <img src="img/tarta.jpeg" class="d-block w-100" alt="tarta">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item foto_carrusel">
                     <img src="img/empanadas3.jpeg" class="d-block w-100" alt="empanadas">
                 </div>
             </div>
@@ -112,8 +112,12 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body container-fluid fondo_verde2">
                         <div class="row">
-                            <div class="col-md-5 col-sm-4 col-xs-3 texto_centrado font_normal p-5"><strong>Conocé como elaboramos los productos que llegan a tu mesa</strong></div>
-                            <div class="col-md-7 col-sm-8 col-xs-9"><video src="img/noquis.mp4" id="video" autoplay loop></video></div>
+                            <div class="col-md-5 col-sm-4 col-xs-3 texto_centrado font_normal p-5">
+                                <strong>Conocé como elaboramos los productos que llegan a tu mesa</strong>
+                            </div>
+                            <div class="col-md-7 col-sm-8 col-xs-9">
+                                <video  class="ancho_responsive" src="img/noquis.mp4" id="video" autoplay loop></video>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -123,9 +127,17 @@
     <footer>
         <div class="container-fluid fondo_verde2">
             <section class="row">
-                <div class="col-4 texto_centrado p-1"><a href="https://www.facebook.com/trattoriadimarce.marce" class="font_normal" target="_blank"><img class="logos_redes my-2" src="img/logo-facebook.png" alt="logoFacebook">Trattoriadimarce Ok</a></div>
-                <div class="col-4 texto_centrado p-1 font_normal"><img class="logo_wpp my-0" src="img/logo-whatsapp.png" alt="logo de whatsapp"><strong>11-5471-5992</strong><img class="logo_wpp my-0" src="img/logo-whatsapp.png" alt="logo de whatsapp"></div>
-                <div class="col-4 texto_centrado p-1"><a href="https://www.instagram.com/trattoriadimarce/" class="font_normal" target="_blank"><img class="logos_redes my-2" src="img/icono-instagram.jpg" alt="logoInstagram">trattoriadimarce</a></div>
+                <div class="col-4 texto_centrado p-1">
+                    <a href="https://www.facebook.com/trattoriadimarce.marce" class="font_normal" target="_blank">
+                    <img class="logos_redes my-2" src="img/logo-facebook.png" alt="logoFacebook">Trattoriadimarce Ok</a>
+                </div>
+                <div class="col-4 texto_centrado p-1 font_normal">
+                    <img class="logo_wpp my-0" src="img/logo-whatsapp.png" alt="logo de whatsapp"><strong>11-5471-5992</strong><img class="logo_wpp my-0" src="img/logo-whatsapp.png" alt="logo de whatsapp">
+                </div>
+                <div class="col-4 texto_centrado p-1">
+                    <a href="https://www.instagram.com/trattoriadimarce/" class="font_normal" target="_blank">
+                    <img class="logos_redes my-2" src="img/icono-instagram.jpg" alt="logoInstagram">trattoriadimarce</a>
+                </div>
             </section>
         </div>
     </footer>
