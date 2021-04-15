@@ -47,37 +47,39 @@
         </nav>
     </header>
     <main>
-        <form class="p-5" action="">
-            <fieldset>
-                <legend>Contactate con nosotros</legend>
-                <label class="my-3" for="nombre_apellido">Nombre y Apellido:</label>
-                <input class="input" type="text" name="nombre_apellido" placeholder="Fulano Mengano">
-                <br>
-                <label class="my-3" for="email">Email:</label>
-                <input class="input" type="email" name="email" placeholder="nombreapellido@gmail.com">
-                <hr>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        ¿Desea recibir nuestros platos del día en su correo electrónico?
-                    </label>
-                </div>
-                <br>
-                <textarea class="my-3" cols="80" rows="13" placeholder="Dejanos tu opinión."></textarea>
-                <br>
-                <label for="estrellas">¿Cómo nos calificarías?</label>
-                <select name="estrellas">
-                    <option>⭐⭐⭐⭐⭐</option>
-                    <option>⭐⭐⭐⭐</option>
-                    <option>⭐⭐⭐</option>
-                    <option>⭐⭐</option>
-                    <option>⭐</option>
-                </select>
-                <hr>
-                <button class="m-3 p-2 bg-success" type="submit">Enviar</button>
-                <button class="p-2 bg-danger" type="reset">Borrar todo</button>
-            </fieldset>
-        </form>
+        <div id="cajaForm">
+            <form class="p-5" action="">
+                <fieldset>
+                    <legend>Contactate con nosotros</legend>
+                    <label class="my-3" for="nombre_apellido">Nombre y Apellido:</label>
+                    <input class="input" type="text" name="nombre_apellido" placeholder="Fulano Mengano">
+                    <br>
+                    <label class="my-3" for="email">Email:</label>
+                    <input class="input" type="email" name="email" placeholder="nombreapellido@gmail.com">
+                    <hr>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            ¿Desea recibir nuestros platos del día en su correo electrónico?
+                        </label>
+                    </div>
+                    <br>
+                    <textarea class="my-3 input" cols="80" rows="13" placeholder="Dejanos tu opinión."></textarea>
+                    <br>
+                    <label for="estrellas">¿Cómo nos calificarías?</label>
+                    <select name="estrellas">
+                        <option>⭐⭐⭐⭐⭐</option>
+                        <option>⭐⭐⭐⭐</option>
+                        <option>⭐⭐⭐</option>
+                        <option>⭐⭐</option>
+                        <option>⭐</option>
+                    </select>
+                    <hr>
+                    <button class="m-3 p-2 bg-success" type="submit">Enviar</button>
+                    <button class="p-2 bg-danger" type="reset">Borrar todo</button>
+                </fieldset>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="container-fluid fondo_verde2">
