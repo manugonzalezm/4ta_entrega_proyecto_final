@@ -87,6 +87,9 @@ h1 {
   height: 8vh;
   width: 8vh; }
 
+#txtBackstage {
+  font-size: 2 rem; }
+
 .ancho_responsive {
   width: 100%; }
 
@@ -122,25 +125,37 @@ h1 {
 .alto_carrusel {
   height: 40vh; }
 
+#video {
+  height: 70vh; }
+
 @media only screen and (max-width: 500px) {
-  .alto_carrusel {
+  #txtBackstage {
+    font-size: 0.6 rem; }
+  h1 {
+    font-size: 1.8rem;
+    margin-right: -50px; }
+    h1:hover {
+      background-image: none; }
+  #logo {
+    margin: 1rem 0.5rem;
+    width: 10vh;
     height: 10vh; } }
 
 @media only screen and (max-width: 670px) {
   .footer_items {
-    font-size: 0.7rem; }
+    font-size: 0.55rem; }
   .logos_redes {
     height: 3vh;
     width: 3vh; }
   .logo_wpp {
     height: 5vh;
     width: 5vh; }
-  .alto_carrusel {
-    height: 40vh; } }
+  #logo {
+    margin: 1rem 0;
+    width: 11.5vh;
+    height: 11.5vh; } }
 
 @media only screen and (max-width: 768px) {
-  .alto_carrusel {
-    height: 45vh; }
   .txt_card {
     font-size: 1rem; } }
 
@@ -153,6 +168,4 @@ h1 {
     margin-right: 40px; }
   .items_menu {
     text-align: center;
-    width: 120%; }
-  .alto_carrusel {
-    height: 40vh; } }
+    width: 120%; } }
