@@ -1,6 +1,6 @@
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
     .alto_carrusel{
-        height: 30vh;
+        height: 10vh;
     }
 }
 
@@ -22,8 +22,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .contenedor_tarjetas{
-        margin: -35px auto;
+    .alto_carrusel{
+        height: 45vh;
+    }
+    .txt_card{
+        font-size: 1rem;
     }
 }
 
@@ -38,5 +41,8 @@
     .items_menu{
         text-align: center;
         width: 120%;
+    }
+    .alto_carrusel{
+        height: 40vh;
     }
 }

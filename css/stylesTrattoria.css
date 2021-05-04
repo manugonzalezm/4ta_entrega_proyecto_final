@@ -98,7 +98,7 @@ h1 {
     object-fit: cover; }
 
 .foto_carrusel {
-  height: 60vh;
+  height: 100%;
   width: 100%; }
 
 .cards_comida {
@@ -110,12 +110,21 @@ h1 {
   margin: 20px auto;
   text-align: center; }
 
+.contenido_centrado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
 .input {
   width: 300px; }
 
-@media only screen and (max-width: 550px) {
+.alto_carrusel {
+  height: 40vh; }
+
+@media only screen and (max-width: 500px) {
   .alto_carrusel {
-    height: 30vh; } }
+    height: 10vh; } }
 
 @media only screen and (max-width: 670px) {
   .footer_items {
@@ -130,8 +139,10 @@ h1 {
     height: 40vh; } }
 
 @media only screen and (max-width: 768px) {
-  .contenedor_tarjetas {
-    margin: -35px auto; } }
+  .alto_carrusel {
+    height: 45vh; }
+  .txt_card {
+    font-size: 1rem; } }
 
 @media only screen and (max-width: 992px) {
   .contenedor_navbar {
@@ -142,4 +153,6 @@ h1 {
     margin-right: 40px; }
   .items_menu {
     text-align: center;
-    width: 120%; } }
+    width: 120%; }
+  .alto_carrusel {
+    height: 40vh; } }
