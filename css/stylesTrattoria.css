@@ -97,11 +97,8 @@ h1 {
     width: 100%;
     object-fit: cover; }
 
-.alto_carrusel {
-  height: 60vh; }
-
 .foto_carrusel {
-  height: 50vh;
+  height: 60vh;
   width: 100%; }
 
 .cards_comida {
@@ -116,6 +113,10 @@ h1 {
 .input {
   width: 300px; }
 
+@media only screen and (max-width: 550px) {
+  .alto_carrusel {
+    height: 30vh; } }
+
 @media only screen and (max-width: 670px) {
   .footer_items {
     font-size: 0.7rem; }
@@ -124,7 +125,9 @@ h1 {
     width: 3vh; }
   .logo_wpp {
     height: 5vh;
-    width: 5vh; } }
+    width: 5vh; }
+  .alto_carrusel {
+    height: 40vh; } }
 
 @media only screen and (max-width: 768px) {
   .contenedor_tarjetas {

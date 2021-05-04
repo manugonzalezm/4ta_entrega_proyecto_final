@@ -1,3 +1,9 @@
+@media only screen and (max-width: 550px) {
+    .alto_carrusel{
+        height: 30vh;
+    }
+}
+
 @media only screen and (max-width: 670px) {
     .footer_items{
         font-size: 0.7rem;
@@ -9,6 +15,9 @@
     .logo_wpp{
         height: 5vh;
         width: 5vh;
+    }
+    .alto_carrusel{
+        height: 40vh;
     }
 }
 
