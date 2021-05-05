@@ -155,15 +155,19 @@ h1 {
     width: 10vh;
     height: 10vh; }
   .titulo_nos {
-    font-size: 1.35rem; } }
+    font-size: 1.35rem; }
+  .footer_items {
+    font-size: 0.1rem; } }
 
 @media only screen and (max-width: 576px) {
   #imagenesComida {
-    display: none; } }
+    display: none; }
+  .footer_items {
+    font-size: 0.55rem; } }
 
 @media only screen and (max-width: 670px) {
   .footer_items {
-    font-size: 0.55rem; }
+    font-size: 0.5rem; }
   .logos_redes {
     height: 3vh;
     width: 3vh; }
@@ -177,7 +181,9 @@ h1 {
 
 @media only screen and (max-width: 768px) {
   .txt_card {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .footer_items {
+    font-size: 0.5rem; } }
 
 @media only screen and (max-width: 992px) {
   .contenedor_navbar {
