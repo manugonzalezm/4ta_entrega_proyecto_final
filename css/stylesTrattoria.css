@@ -148,8 +148,6 @@ h1 {
   h1 {
     font-size: 1.8rem;
     margin-right: -50px; }
-    h1:hover {
-      background-image: none; }
   #logo {
     margin: 1rem 0.5rem;
     width: 10vh;
