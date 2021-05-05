@@ -134,7 +134,7 @@ h1 {
   display: inline-block;
   background-color: #f72f2f;
   position: fixed;
-  bottom: 5vh;
+  bottom: 6vh;
   right: 5vh; }
 
 @media only screen and (max-width: 500px) {
@@ -148,7 +148,9 @@ h1 {
   #logo {
     margin: 1rem 0.5rem;
     width: 10vh;
-    height: 10vh; } }
+    height: 10vh; }
+  .titulo_nos {
+    font-size: 1.35rem; } }
 
 @media only screen and (max-width: 576px) {
   #imagenesComida {
