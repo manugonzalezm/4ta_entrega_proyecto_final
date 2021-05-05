@@ -17,7 +17,7 @@
 </head>
 <body class="fondo_claro">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0" id="arriba">
             <div class="container-fluid fondo_oscuro">
                 <a class="navbar-brand" href="index.html"><h1 class="m-2 p-3" id="titulo">Trattoria di Marce</h1></a>
                 <img id="logo" class="m-2" src="img/logo-tdm-recortado.jpeg" alt="logo-trattoria">
@@ -47,33 +47,36 @@
         </nav>
     </header>
     <main>
-        <h3 class="font_media m-4 p-2 texto_centrado" id="arriba">~ Comidas ~</h3>
-            <div class="container-fluid my-5">
-                <div class="row mx-2 my-5 p-0">
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
-                        <a href="#milanesas"><img src="img/fondo-milanesa.jpeg" class="cards_comida" alt="milanesa"></a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
-                        <a href="#hamburguesas"><img src="img/fondo-hamburguesa.jpeg" class="cards_comida" alt="hamburguesa"></a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
-                        <a href="#pastas"><img src="img/fondo-pasta.jpeg" class="cards_comida" alt="pastas"></a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
-                        <a href="#ensaladas"><img src="img/fondo-ensalada.jpeg" class="cards_comida" alt="ensalada"></a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
-                        <a href="#pizzas"><img src="img/fondo-pizza.jpeg" class="cards_comida" alt="pizza"></a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
-                        <a href="#empanadasTartas"><img src="img/fondo-empanadas.jpeg" class="cards_comida" alt="empanadas"></a>
+        <span><a href="#arriba"><img src="img/flecha_arriba.svg" id="irArriba" alt="flecha hacia arriba"></a></span>
+        <section id="imagenesComida">
+            <h3 class="font_subt p-2 texto_centrado" id="arriba">~ Haz click en la comida que deseas ver ~</h3>
+                <div class="container-fluid">
+                    <div class="row mx-2 my-2 p-0">
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
+                            <a href="#milanesas"><img src="img/fondo-milanesa.jpeg" class="cards_comida" alt="milanesa"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
+                            <a href="#hamburguesas"><img src="img/fondo-hamburguesa.jpeg" class="cards_comida" alt="hamburguesa"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
+                            <a href="#pastas"><img src="img/fondo-pasta.jpeg" class="cards_comida" alt="pastas"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
+                            <a href="#ensaladas"><img src="img/fondo-ensalada.jpeg" class="cards_comida" alt="ensalada"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
+                            <a href="#pizzas"><img src="img/fondo-pizza.jpeg" class="cards_comida" alt="pizza"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 cards_comida p-0 mx-0">
+                            <a href="#empanadasTartas"><img src="img/fondo-empanadas.jpeg" class="cards_comida" alt="empanadas"></a>
+                        </div>
                     </div>
                 </div>
-            </div>
+        </section>
         <h4 class="container texto_centrado fondo_verde2 font_normal bordes my-5 p-2">Conocé nuestra variedad de platos 100% caseros</h4>
         <div class="card mb-3 my-5 container" id="milanesas"> <!--Milanesas-->
                 <div class="row g-0">
-                    <div class="col-lg-4 col-md-12 p-4">
+                    <div class="col-lg-4 col-md-12 p-2">
                         <div class="card-body">
                             <h5 class="card-title font_subt texto_centrado">Milanesas y Supremas</h5>
                             <ul class="card-text font_normal">
@@ -95,11 +98,11 @@
                                 <li>Panceta y Huevo Frito🥓🍳</li>
                                 <li>Cheddar y Panceta🧀🥓</li>
                                 <li>Cheddar Panceta y Huevo Frito🧀🥓🍳</li>
-                                <p class="my-5">Todas incluyen guarnicion para compartir</p>
+                                <p class="my-2">Todas incluyen guarnicion para compartir</p>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-12 p-3">
+                    <div class="col-lg-8 col-md-12 p-2 contenido_centrado">
                         <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -144,11 +147,11 @@
                                 <li>🍔Clasica Doble</li>
                                 <li>🍔Jamón y Queso</li>
                                 <li>🍔Completa L-T-J-Q</li>
-                                <p class="my-5">Todas incluyen Papas Fritas <br> 🍟🍟🍟🍟🍟🍟🍟🍟🍟</p>
+                                <p class="my-2">Todas incluyen Papas Fritas <br> 🍟🍟🍟🍟🍟🍟🍟🍟🍟</p>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-12 p-3">
+                    <div class="col-lg-8 col-md-12 p-2 contenido_centrado">
                         <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -191,14 +194,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-12 p-3">
+                    <div class="col-lg-8 col-md-12 p-3 contenido_centrado">
                         <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="img/Cappeletis1.jpeg" class="d-block w-100  alto_carrusel" alt="cappellettis">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/noquisSalsa2.jpeg" class="d-block w-100  alto_carrusel" alt="noquis">
+                                    <img src="img/noquisSalsa2.jpg" class="d-block w-100  alto_carrusel" alt="noquis">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
@@ -233,11 +236,11 @@
                                 <li>Arroz</li>
                                 <li>Huevo</li>
                                 <li>Aceitunas</li>
-                                <p class="my-5">Con opción de agregar adicional de Pollo, Jamón y Queso</p>
+                                <p class="my-2">Con opción de agregar adicional de Pollo, Jamón y Queso</p>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-12 p-3">
+                    <div class="col-lg-8 col-md-12 p-2 contenido_centrado">
                         <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -272,7 +275,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-12 p-3">
+                    <div class="col-lg-8 col-md-12 p-3 contenido_centrado">
                         <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -323,7 +326,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-12 p-3">
+                    <div class="col-lg-7 col-md-12 p-3 contenido_centrado">
                         <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">

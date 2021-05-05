@@ -16,6 +16,12 @@
     }
 }
 
+@media only screen and (max-width: 576px) {
+    #imagenesComida{
+            display: none;
+    }
+}
+
 @media only screen and (max-width: 670px) {
     .footer_items{
         font-size: 0.55rem;

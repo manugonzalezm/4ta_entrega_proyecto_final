@@ -3,9 +3,19 @@
 }
 
 .alto_carrusel{
-    height: 40vh;
+    height: 80vh;
 }
 
 #video{
     height: 70vh;
+}
+
+#irArriba{
+    width: 5vh;
+    height: 5vh;
+    display: inline-block;
+    background-color: rgb(247, 47, 47);
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
 }
