@@ -111,7 +111,11 @@ h1 {
   width: 70%;
   height: 40%;
   margin: 20px auto;
-  text-align: center; }
+  text-align: center;
+  border: black solid 1px;
+  text-align: left; }
+  #cajaForm * {
+    margin: auto auto; }
 
 .contenido_centrado {
   display: flex;
@@ -120,7 +124,7 @@ h1 {
   align-items: center; }
 
 .input {
-  width: 300px; }
+  width: 95%; }
 
 .alto_carrusel {
   height: 80vh; }
@@ -135,7 +139,8 @@ h1 {
   background-color: #f72f2f;
   position: fixed;
   bottom: 6vh;
-  right: 5vh; }
+  right: 5vh;
+  z-index: 500; }
 
 @media only screen and (max-width: 500px) {
   #txtBackstage {

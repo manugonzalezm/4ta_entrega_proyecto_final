@@ -1,6 +1,8 @@
 .input{
-    width: 300px;
+    width: 95%;
 }
+
+
 
 .alto_carrusel{
     height: 80vh;
@@ -18,4 +20,5 @@
     position: fixed;
     bottom: 6vh;
     right: 5vh;
+    z-index: 500;
 }
