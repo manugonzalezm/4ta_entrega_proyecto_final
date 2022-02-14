@@ -1,6 +1,7 @@
-# 4ta_entrega_proyecto_final
+# Proyecto Final - Desarrollo Web
+## Coder House
 
-Esta es la Entrega del proyecto final. El sitio es de una casa de comidas caseras de Gerli, Avellaneda. 
-Las ultimas modificaciones van en el sentido de hacer el sitio responsive tanto en lo que respecta a imagenes y carruseles como a formularios y el menu.
-
-Autor: Manuel Gonzalez Mouriño
+### Descripción
+Proyecto Final del curso de desarrollo web de Coder House.
+Se trata de un sitio estático acerca de la casa de comidas de mi familia. Es el primer sitio web que hice.
+Fue desarrollado con HTML, Sass y Bootstrap. Es responsive gracias a la grid de Bootstrap y a media queries en los archivos .scss
